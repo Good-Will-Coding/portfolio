@@ -67,6 +67,10 @@ span.icons {
     padding-top: 6px;
 }
 
+img#profile-pic {
+    width: 4vw;
+    
+}
 .header i:hover,
 active {
   color: #218c74;
