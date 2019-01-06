@@ -9,7 +9,7 @@ html {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #05c46b,#0be881);
+  background-image: linear-gradient(to right bottom, #26de81,#20bf6b);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -51,7 +51,7 @@ html {
 
 .header i {
   
-  color: #16a085;
+  color: #32ff7e;
   font-size: 4vw;
   padding-left: 12px;
   padding-right: 12px;
@@ -73,7 +73,7 @@ img#profile-pic {
 }
 .header i:hover,
 active {
-  color: #218c74;
+  color: #BDC581;
   text-decoration: none;
 }
 
@@ -101,7 +101,14 @@ active {
     margin: 50px;
     font-size: 3.5vw;
   }
+  .header i {
+    width: 8px;
+  text-shadow: 1px 1px #14352c;
+
+  }
 }
+
+
 
 .section-skills {
   display: flex;
