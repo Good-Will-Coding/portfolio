@@ -9,7 +9,7 @@ html {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #30336b, #6c5ce7);
+  background-image: linear-gradient(to right bottom, #05c46b,#0be881);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -21,9 +21,9 @@ html {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: #55efc4;
+  color: #14352c;
   letter-spacing: 1.5px;
-  text-shadow: 1px 5px #2e3a4e;
+  /* text-shadow: 1px 5px #2e3a4e; */
   padding-top: 5%;
   margin-bottom: 5px;
   font-size: 4rem;
@@ -44,35 +44,45 @@ html {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: #dfe6e9;
-  text-shadow: 1px 1px #090911;
+  color: #fafafa;
+  text-shadow: 1px 1px #363641;
 
 }
 
 .header i {
   
-  color: #fc427b;
-  margin: 2px;
+  color: #16a085;
+  font-size: 4vw;
+  padding-left: 12px;
+  padding-right: 12px;
   text-decoration: none;
+  text-shadow: 2px 2px #14352c;
+
 }
 
 span.icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 6px;
 }
 
 .header i:hover,
 active {
-  color: #b33771;
+  color: #218c74;
   text-decoration: none;
 }
 
 .header-about {
   margin: 200px 300px;
   margin-top: 50px;
-  color: #dfe6e9;
+  color: #31373b;
   text-align: center;
+}
+
+.strong-about {
+    color:#030807;
+    
 }
 
 
