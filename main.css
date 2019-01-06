@@ -9,7 +9,7 @@ html {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #30336b, #222f3e);
+  background-image: linear-gradient(to right bottom, #30336b, #6c5ce7);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -21,9 +21,9 @@ html {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: #dfe6e9;
+  color: #55efc4;
   letter-spacing: 1.5px;
-  text-shadow: 1px 5px #172030;
+  text-shadow: 1px 5px #2e3a4e;
   padding-top: 5%;
   margin-bottom: 5px;
   font-size: 4rem;
