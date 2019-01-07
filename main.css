@@ -7,6 +7,8 @@ html {
   background-color: #34495e;
 }
 
+/* Header */
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, #26de81,#20bf6b);
@@ -67,10 +69,10 @@ span.icons {
     padding-top: 6px;
 }
 
-img#profile-pic {
+/* img#profile-pic {
     width: 4vw;
-    
-}
+} */
+
 .header i:hover,
 active {
   color: #BDC581;
@@ -88,7 +90,6 @@ active {
     color:#030807;
     
 }
-
 
 @media only screen and (max-width: 900px) {
   .header-about {
@@ -108,7 +109,7 @@ active {
   }
 }
 
-
+/* Skills */
 
 .section-skills {
   display: flex;
