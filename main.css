@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: #34495e;
+  background-color: #2d915f;
 }
 
 /* Header */
@@ -46,8 +46,11 @@ html {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: #fafafa;
-  text-shadow: 1px 1px #363641;
+  letter-spacing: 1.5px;
+  color: #14352c;
+  /* text-shadow: 1px 1px #000000; */
+  font-family: "Bungee Shade", cursive;
+
 
 }
 
@@ -75,7 +78,7 @@ span.icons {
 
 .header i:hover,
 active {
-  color: #BDC581;
+  color: #f5f8f5;
   text-decoration: none;
 }
 
@@ -229,7 +232,7 @@ active {
 /* Footer */ 
 
 .footer {
-  background: black;
+  background: rgb(0, 0, 0);
   color: white;
   padding: 20px;
   padding-top: 18px;
