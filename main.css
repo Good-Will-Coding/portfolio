@@ -106,9 +106,12 @@ active {
     font-size: 3.5vw;
   }
   .header i {
-    width: 8px;
+    font-size: 12vw;
   text-shadow: 1px 1px #14352c;
 
+  }
+  .header-subtitle {
+    font-size: 4.5vw;
   }
 }
 
@@ -221,7 +224,7 @@ active {
     width: 50vw;
   }
   .project-img {
-    width: 50vw;
+    width: 20vw;
   }
 }
 
